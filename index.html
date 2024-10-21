@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Guessing Game</h1>
+        <div id="colorBox" class="color-box"></div>
+        <p>Guess the RGB value of the color displayed above!</p>
+        <input type="text" id="guessInput" placeholder="Enter your guess (e.g. rgb(255, 0, 0))">
+        <button onclick="checkGuess()">Guess</button>
+        <h2 id="resultMessage"></h2>
+        <button onclick="startGame()" class="play-again">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
